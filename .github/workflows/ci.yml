@@ -3,6 +3,6 @@ on : [push]
 jobs:
   test:
     runs-on:ubuntu-latest
-   steps:
+    steps:
       -uses: actions/checkout@V4
       -run : python3 test_app.py
